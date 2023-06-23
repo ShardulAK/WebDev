@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 500vh;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4 , 4, 4);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    margin-bottom: 50px;
+    overflow: auto;
+    z-index: 1;
+    
+}
+#Head{
+    text-shadow: 1.5px 1.5px 1px white;
+    font-size: 32px;
+    position: relative;
+    color: orangered;  
+}
+#img1{
+    position: relative;
+    float: left;
+}
+
+main{
+    padding-top: 150px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 50px;
+    font-size: larger;
+    text-align: justify;
+    border: 1px solid black;
+    position: relative;
+}
+
+.aside-container{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 0;
+}
+
+
+aside{
+    width: 300px;
+    background-color: salmon;
+    height: 80vh;
+    position: sticky;
+    top: 150px;
+    float: right;
+}
+    
+    
+
+
+
+
